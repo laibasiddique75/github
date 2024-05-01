@@ -1,0 +1,79 @@
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(103, 103, 103);
+    border-radius: 100px;
+}
+.rectangle{
+    height: 27px;
+    width: 12px;
+    
+    border-radius: 3px;
+    border: 2px solid white;
+    margin-right: 2px;
+}
+.bg{
+    background-color: black;
+    box-sizing: border-box;
+    
+    padding: auto;
+}
+
+
+@font-face {
+    font-family: "mono";
+    src: url(fonts/KodeMono-VariableFont_wght.ttf);
+}
+.text{
+    font-family: mono;
+}.color{
+    color: red;
+}
+.green{
+    color: green;
+}
+.head{
+    background-color: white;
+}
+h1.font{
+    font-size: 60px !important;
+  line-height: 60px !important;
+  font-weight: 800 !important;
+  color: black;
+}
+h3{
+    font-size: 20px !important;
+  line-height: 32px !important;
+  font-weight: 800 !important;
+}
+@media screen and (min-width:768px) {
+    h3{
+        font-size: 28px !important;
+        line-height: 32px !important;
+    }
+    
+    
+}
+@media screen and (max-width:768px) {
+    #main{
+        flex-direction: column;
+    }
+    
+}
+.bgi{
+    background-image: url(images/square\ patter.png);
+    background-size: cover;
+    height: 600px;
+   background-color: white;
+    
+}
+.ch{
+    font-weight: 800;
+    font-size: xx-large;
+}
+.bs{
+    box-shadow: 2px 2px 5px gainsboro;
+}
+.end{
+    background-color: #f6f8fa;
+}

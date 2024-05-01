@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- header -->
+     <header>
+        <nav class="d-flex flex-content-center flex-justify-between align-items-center bg-dark ps-4 pe-4">
+            <a href="" class="d-flex text-decoration-none flex-items-center">
+                <svg viewBox="0 0 16 16" width="32" height="32" class="octicon octicon-mark-github m-2 "
+                    aria-hidden="true" role="img">
+                    <path
+                        d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                    </path>
+                </svg>
+                <div class="d-flex align-items-center pt-2  ">
+                <p class="text-light  ">CLI</p>
+                </div>
+
+            </a>
+            <div class=" d-flex justify-content-end w-100 ">
+                <a href="https://cli.github.com/manual/" class=" text-decoration-none text-light ">Manual</a>
+                <a href="https://github.com/cli/cli/releases/tag/v2.45.0"
+                    class=" text-decoration-none text-light ms-4">Release note</a>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+
+    <!-- main section -->
+    <section class="main bg-dark text-light ">
+
+        <div class="container">
+            <div class="row  d-flex justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-10 col-12 py-4 ">
+                    <h1 class="fw-bolder display-1 ">Take GitHub to the command line</h1>
+                    <p class="text-muted">GitHub CLI brings GitHub to your terminal. Free and open source.</p>
+                    <p class="lead">
+                        <a href="https://github.com/cli/cli/releases/download/v2.45.0/gh_2.45.0_windows_amd64.msi"
+                            class="btn btn-lg btn-secondary border-white bg-white text-dark p-3 fw-normal ">Download for
+                            Windows</a>
+                    </p>
+                    <p>View installation instructions →</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- subsection 1 -->
+        <div>
+            <h3 class="text-normal text-center mb-2 animate_animated animate_slideInRight">
+                <span>$</span>
+                <span class="d-none ">gh issue list</span>
+                <span>gh pr status</span>
+                <span class="d-none">gh pr checkout</span>
+                <span class="d-none">gh pr create</span>
+                <span class="d-none">gh pr checks</span>
+                <span class="d-none">gh release create</span>
+                <span class="d-none">gh repo view</span>
+                <span class="d-none">gh alias set</span>
+            </h3>
+            <p class="text-center">Create a shortcut for a gh command.</p>
+        </div>
+        <div class="d-flex  justify-content-center mb-5">
+            <div class="bg container-xl col-12 w-75  ">
+                <div class="d-flex justify-content-between   m-auto ">
+                    <div class="d-flex p-3">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+
+                    </div>
+                    <div class="d-flex p-3">
+                        <div class="rectangle"></div>-
+                        <div class="rectangle"></div>
+
+                    </div>
+                </div>
+                <div class="w-50 d-flex m-auto">
+                    <p class="text ">$ gh pr status
+
+                        Relevant pull requests in cli/cli
+
+                        Current branch
+                        There is no pull <span class="color">request</span> associated with <span
+                            class="color">[fix-homepage-bug]</span>
+
+                        Created by you
+                        You have no open <span class="color">pull </span>requests
+
+                        Requesting a code review from you
+                        #100 <span class="green"> Fix footer</span> on homepage [fix-homepage-footer]
+                        ✓ Checks passing - Review pending</p>
+
+                </div>
+                <div class="px-5 ">
+                    <p class="fw-bolder fs-3 pb-5 pt-3 text-center"><a
+                            class="h5-mktg color-fg-default Bump-link mx-auto mx-lg-0 no-underline mb-5 text-decoration-none text-light"
+                            href="https://cli.github.com/manual/gh">View all GitHub CLI commands <span
+                                class="Bump-link-symbol">→</span></a></p>
+                </div>
+            </div>
+        </div>
+        <!-- subsection 2 -->
+        <div class="head ">
+            <div class=" container-xl pt-5  ">
+                <div class="d-flex ">
+                    <h1 class=" font ">Goodbye, context switching. Hello,
+                        terminal.</h1>
+                </div>
+                <div class="d-flex flex-wrap py-5 " id="main">
+                    <div class="col-12 col-sm-6 col-md-3  ">
+                        <h3 class="h-1 text-dark fw-bolder text-wrap ">Your entire GitHub workflow</h3>
+                        <p class="text-dark">Work with issues, pull requests, checks, releases and more.</p>
+                        <a href="#" class="text-decoration-none fs-6">View all GitHub CLI commands →</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3   ">
+                        <h3 class="h-1 text-dark fw-bolder text-wrap">Script and customize</h3>
+                        <p class="text-dark">Call the GitHub API to script almost any action, and set a custom alias for
+                            any command.</p>
+                        <a href="#" class="text-decoration-none fs-6">Learn about aliases and API →</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3  ">
+                        <h3 class="h-1 text-dark fw-bolder text-wrap">Enterprise-ready</h3>
+                        <p class="text-dark">Connect to GitHub Enterprise Server in addition to GitHub.com.</p>
+                        <a href="#" class="text-decoration-none fs-6">Get set up with Enterprise</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3  ">
+                        <h3 class="h-1 text-dark fw-bolder text-wrap">We < 3 community </h3>
+                                <p class="text-dark">GitHub CLI is open source and ready for your contributions.</p>
+                                <a href="#" class="text-decoration-none fs-6">Contribute to CLI →
+                                </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- card -->
+        <div class="bgi d-flex align-items-center">
+            <div class="d-flex justify-content-center align-items-center container-xl ">
+                <div class="card border-0  mx-auto bs ">
+
+                    <div class=" card-body text-bg-light h-25 p-5">
+                    <h5 class="card-title text-dark ch">Try GitHub on the command line</h5>
+                    <p class="card-text text-dark text-muted">GitHub CLI brings GitHub to your terminal. Free and open
+                        source.</p>
+                    <p class="lead">
+                        <a href="https://github.com/cli/cli/releases/download/v2.45.0/gh_2.45.0_windows_amd64.msi"
+                            class="btn btn-lg btn-secondary border-white bg-dark text-light ps-4 pe-4 pt-3 pb-3 fs-6 fw-normal ">Download
+                            for
+                            Windows</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        <!-- info -->
+        <div class="bg-white d-flex justify-content-around p-5flex-wrap">
+            
+                <div>
+                    <h2><a href="" class="text-decoration-none text-dark fw-bolder ps-1 text-align-start" >GitHub</a></h2>
+                </div>
+                <div class="d-flex justify-content-center justify-content-lg-between  row bg-white">
+                    <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-lg-0 pr-3 pr-lg-0 pl-lg-4">
+                        <h6><a href="" class="text-decoration-none text-dark">Product</a></h6>
+                        <p><a href="" class="text-decoration-none text-muted">Features</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Resources</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Pricing</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Customer stories</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Enterprise</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Security</a></p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-lg-0 pr-3 pr-lg-0 pl-lg-4">
+                        <h6><a href="" class="text-decoration-none text-dark">Platform</a></h6>
+                        <p><a href="" class="text-decoration-none text-muted">GitHub Desktop</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Atom</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Electron</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Partners</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Developer API</a></p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-lg-0 pr-3 pr-lg-0 pl-lg-4">
+                        <h6><a href="" class="text-decoration-none text-dark">Support</a></h6>
+                        <p><a href="" class="text-decoration-none text-muted">Help</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Status</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Contact GitHub</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Learning Lab</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Professional Services</a></p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-lg-0 pr-3 pr-lg-0 pl-lg-4">
+                        <h6><a href="" class="text-decoration-none text-dark">Company</a></h6>
+                        <p><a href="" class="text-decoration-none text-muted">Shop</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Press</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Careers</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">Blog</a></p>
+                        <p><a href="" class="text-decoration-none text-muted">About</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer -->
+        <div class="end p-5">
+            <div class="">
+                <div class="d-flex flex-wrap justify-content-between container "> 
+                    <div class="d-flex ">
+                        <li><a href="" class="text-decoration-none text-dark">© 2024 GitHub, Inc.</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Terms</a></li>
+                        <li><a href="" class="text-decoration-none text-dark">Privacy</a></li>
+                    </div>
+                    <div class="d-flex gap-3 ">
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter fs-3" style="color: #939495;"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-square-facebook fs-3" style="color: #787878;"></i></a>
+                        <a href="https://youtube.com"><i class="fa-brands fa-youtube fs-3" style="color: #5b5c5d;"></i></a>
+                        <a href="https://github.com"><i class="fa-brands fa-github fs-3" style="color: #5a5b5e;"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin fs-3" style="color: #606162;"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main section end -->
+</body>
+</html>
+
